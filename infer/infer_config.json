@@ -1,0 +1,37 @@
+
+{
+    "test_files": "/pathtodata/zh_data_json/test_zh.json",
+    "llm_type": "qwen2-audio",
+    "llm_path": "/path/pretrained-model/qwen2-audio",
+    "results_folder": "/path/save_model",
+    "infer_task": "st",
+    "audio_lang": "zh",
+    "tgt_lang": "en",
+    "retriever_path": "/path/save_model/zh_retriever",
+    "term_bank_path": "/pathtodata/10k_zh_CE.json",
+    "retriever_ans": "/pathtodata/infer_results.json",
+    "topk": 50,
+    "sample_rate": 16000,
+    "batch_size": 6,
+    "epochs": 100,
+    "learning_rate": 1e-5,
+    "intial_learning_rate": 1e-5,
+    "num_warmup_steps": 0,
+    "betas": [
+        0.9,
+        0.99
+    ],
+    "seed": 1234,
+    "wd": 1e-4,
+    "num_workers": 0,
+    "log_steps": 100,
+    "stdout_steps": 10,
+    "save_model_steps": 100,
+    "num_ckpt_keep": 6,
+    "showpiece_num": 8,
+    "n_embed": 4096,
+    "retriever_n_head": 32,
+    "attn_pdrop": 0.1,
+    "retriever_merge_type": "add",
+    "retriever_audio_word_fc": false
+}
