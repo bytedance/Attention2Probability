@@ -9,7 +9,7 @@ Attention2Probability (A2P) is a lightweight intervention scheme for speech term
 
 
 ## News
-- [2025-08-14] We have released the train and infer code for A2P.
+- [2025-08-27] We have released the train and infer code for A2P.
 
 ## Structure
 
