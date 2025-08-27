@@ -1,4 +1,14 @@
-#This script is based on  https://github.com/ZhangXInFD/SpeechTokenizer/blob/main/speechtokenizer/trainer/optimizer.py
+# Copyright (c) 2024 zhangxin
+# Copyright (c) 2025 ByteDance Ltd.
+# SPDX-License-Identifier: Apache 2.0 license
+#
+# This file is based on https://github.com/ZhangXInFD/SpeechTokenizer/blob/main/speechtokenizer/trainer/optimizer.py
+# This file has been modified by ByteDance Ltd. on 27.08.2025
+#
+# Original file was released under Apache 2.0 license, with the full license text
+# available at https://www.apache.org/licenses/LICENSE-2.0.
+#
+# This modified file is released under the same license.
 from torch.optim import AdamW, Adam
 
 def separate_weight_decayable_params(params):
